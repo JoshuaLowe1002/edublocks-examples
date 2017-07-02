@@ -1,0 +1,64 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mcimport" id="={6{9VLz=%RbOM+y^xgt" x="3" y="25">
+    <next>
+      <block type="random" id="Nt1usp0Xva1Jg3C]]s7[">
+        <next>
+          <block type="import_block" id="%(GJ^HT!%9XZSJ;mJb*q">
+            <next>
+              <block type="mccreate" id="bhfi7RZElIjfS|mZ|4VT">
+                <next>
+                  <block type="while_true" id="[D49xYZjXljSv4!?8}0`">
+                    <statement name="DO">
+                      <block type="equalsblock" id="T61A{JvKjpe!Ju*bj!,f">
+                        <field name="1">x</field>
+                        <field name="2">random.randint(0, 100)</field>
+                        <next>
+                          <block type="equalsblock" id="k:AdZb#;Dlgqxms@OTEM">
+                            <field name="1">y</field>
+                            <field name="2">random.randint(0, 100)</field>
+                            <next>
+                              <block type="equalsblock" id="..ER./9[6qtD6L2[|j^T">
+                                <field name="1">z</field>
+                                <field name="2">random.randint(0, 100)</field>
+                                <next>
+                                  <block type="mctext5" id="N81oE6mSiq0~wEhV:/v)">
+                                    <field name="x">x</field>
+                                    <field name="y">y</field>
+                                    <field name="z">z</field>
+                                    <field name="p">45</field>
+                                    <field name="i">1</field>
+                                    <next>
+                                      <block type="mcblocks8" id="Q?2a*dZaVCQH*_rteZ0R">
+                                        <field name="x">x</field>
+                                        <field name="y">y</field>
+                                        <field name="z">z</field>
+                                        <field name="q">x+5</field>
+                                        <field name="w">y+5</field>
+                                        <field name="e">z+5</field>
+                                        <field name="r">46</field>
+                                        <field name="t">1</field>
+                                        <next>
+                                          <block type="sleep" id="E?7pC{.(95^j3+.AcJgD">
+                                            <field name="sleepTime">5</field>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
